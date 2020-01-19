@@ -21,13 +21,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 
-import com.example.connection.EventsPage;
+import com.example.connection.MessageBoard;
 import com.example.connection.R;
-import com.example.connection.ui.login.LoginViewModel;
-import com.example.connection.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -75,8 +72,7 @@ public class LoginActivity extends AppCompatActivity {
                     updateUiWithUser(loginResult.getSuccess());
                 }
                 setResult(Activity.RESULT_OK);
-                Intent intent = new Intent(LoginActivity.this,
-                        EventsPage.class);
+                Intent intent = new Intent(LoginActivity.this, MessageBoard.class);
                 startActivity(intent);
                 //Complete and destroy login activity once successful
                 finish();
