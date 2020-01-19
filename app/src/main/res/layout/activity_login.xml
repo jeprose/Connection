@@ -21,7 +21,7 @@
         android:autoSizeMaxTextSize="18dp"
         android:autoSizeTextType="uniform"
         android:autofillHints="@string/prompt_email"
-        android:background="#64FFDA"
+        android:background="#7EACCFC3"
         android:backgroundTint="#1DE9B6"
         android:backgroundTintMode="screen"
         android:fontFamily="serif"
