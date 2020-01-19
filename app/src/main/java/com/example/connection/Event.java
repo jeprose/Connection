@@ -5,13 +5,11 @@ package com.example.connection;
 public class Event extends EventsPage {
 
     private String title;
-    private String location;
     private String desc;
     private String dateTime;
 
-    public Event(String t, String l, String d, String dT) {
+    public Event(String t, String d, String dT) {
         title = t;
-        location = l;
         desc = d;
         dateTime = dT;
     }
