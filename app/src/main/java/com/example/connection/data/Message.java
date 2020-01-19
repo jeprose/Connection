@@ -1,8 +1,10 @@
 package com.example.connection.data;
 
-public class Message {
-    User thisuser;
-    String text;
+import java.io.Serializable;
+
+public class Message implements Serializable {
+    public User thisuser;
+    public String text;
     public Message(User usert, String textt){
         thisuser=usert;
         text=textt;
