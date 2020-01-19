@@ -4,8 +4,6 @@
     tools:context="com.example.connection.Chat">
     <item
         android:id="@+id/action_settings"
-        android:iconTint="#80D8FF"
-        android:iconTintMode="screen"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
