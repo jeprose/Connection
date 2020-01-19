@@ -1,4 +1,4 @@
 package com.example.connection.data;
 
-class Message {
+public class Interests {
 }
