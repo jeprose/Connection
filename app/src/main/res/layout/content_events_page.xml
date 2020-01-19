@@ -7,6 +7,7 @@
     android:background="#2F80D8FF"
     android:backgroundTint="#2F80D8FF"
     android:backgroundTintMode="screen"
+    android:clickable="true"
     android:contextClickable="true"
     android:fillViewport="false"
     android:requiresFadingEdge="vertical"
@@ -23,6 +24,6 @@
         android:text="@string/large_text"
         android:textAlignment="viewStart"
         android:textAllCaps="true"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
 
 </androidx.core.widget.NestedScrollView>
