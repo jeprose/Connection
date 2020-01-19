@@ -25,9 +25,9 @@ public class EventsPage extends AppCompatActivity {
         ListView  listView = (ListView)findViewById(R.id.listview);
 
         ArrayList<Event> eventList = new ArrayList<>();
-        eventList.add(new Event("Test Event 1", "Livermore", "This is a test event.", "3:00PM 2/1/20"));
-        eventList.add(new Event("Test Event 2", "Livermore", "This is a test event.", "3:00PM 2/1/20"));
-        eventList.add(new Event("Test Event 3", "Livermore", "This is a test event.", "3:00PM 2/1/20"));
+        eventList.add(new Event("Test Event 1", "This is a test event.", "3:00PM 2/1/20"));
+        eventList.add(new Event("Test Event 2", "This is a test event.", "3:00PM 2/1/20"));
+        eventList.add(new Event("Test Event 3", "This is a test event.", "3:00PM 2/1/20"));
 
         ArrayAdapter eventAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, eventList);
 
