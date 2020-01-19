@@ -43,7 +43,7 @@ public class EventsPage extends AppCompatActivity {
         loged.addChat(new Chats(set1,new ArrayList<Message>()));
         ArrayList<User> set2=new ArrayList<User>();
         set2.add(loged);
-        set2.add(user1);
+        set2.add(user2);
         loged.addChat(new Chats(set2,new ArrayList<Message>()));
 
         ArrayAdapter eventAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, loged.getChats());
