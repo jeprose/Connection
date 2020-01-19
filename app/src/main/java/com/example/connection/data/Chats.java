@@ -7,5 +7,7 @@ public class Chats {
         users=use;
         messages=messag;
     }
-
+    public String toString(){
+        return users.get(1).getDisplayName()+"\n";
+    }
 }
