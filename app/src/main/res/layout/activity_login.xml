@@ -63,7 +63,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="64dp"
-        android:background="#004D40"
+        android:background="#6F9485"
         android:backgroundTint="#004D40"
         android:backgroundTintMode="screen"
         android:enabled="false"
