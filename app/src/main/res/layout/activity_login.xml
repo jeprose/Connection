@@ -16,7 +16,7 @@
         android:layout_width="356dp"
         android:layout_height="57dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="24dp"
         android:autoSizeMaxTextSize="18dp"
         android:autoSizeTextType="uniform"
@@ -39,7 +39,7 @@
         android:layout_width="356dp"
         android:layout_height="57dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="24dp"
         android:autofillHints="@string/prompt_password"
         android:background="#9C8FDFD4"
@@ -90,5 +90,20 @@
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="189dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="58dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
