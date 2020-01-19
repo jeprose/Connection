@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user1">Jack</string>
+    <string name="user2">Santhoshi</string>
+    <string name="title_activity_chat">Chat</string>
+</resources>
