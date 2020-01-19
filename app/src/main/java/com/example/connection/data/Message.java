@@ -1,4 +1,11 @@
 package com.example.connection.data;
 
-class Message {
+public class Message {
+    User thisuser;
+    String text;
+    public Message(User usert, String textt){
+        thisuser=usert;
+        text=textt;
+    }
+
 }

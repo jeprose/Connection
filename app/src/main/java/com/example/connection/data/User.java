@@ -1,17 +1,12 @@
 package com.example.connection.data;
-
+//@Entity
 public class User {
-    private String userId;
+    //@primaryKey
     private String displayName;
 
 
-    public User(String userId, String displayName) {
-        this.userId = userId;
+    public User(String displayName) {
         this.displayName = displayName;
-    }
-
-    public String getUserId() {
-        return userId;
     }
 
     public String getDisplayName() {
