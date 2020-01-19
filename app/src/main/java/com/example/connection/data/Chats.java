@@ -2,7 +2,7 @@ package com.example.connection.data;
 import java.io.Serializable;
 import java.util.ArrayList;
 public class Chats implements Serializable {
-    ArrayList<User> users;
+    public ArrayList<User> users;
     public ArrayList<Message> messages;
     public Chats(ArrayList<User> use, ArrayList<Message> messag){
         users=use;
