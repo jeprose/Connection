@@ -24,6 +24,7 @@ public class MessageBoard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message_board);
         ListView listView = (ListView) findViewById(R.id.listview);
+
         ArrayList<Chats> chatList = new ArrayList<Chats>();
         ArrayList<User> users= new ArrayList<User>();
         LoggedInUser loged= LoggedInUser.loggedin;
@@ -41,7 +42,8 @@ public class MessageBoard extends AppCompatActivity {
         loged.addChat(new Chats(set2,new ArrayList<Message>()));
         loged.getChat(1).messages.add(new Message(user2,"my homie."));
         loged.getChat(1).messages.add(new Message(loged,"sup bitchie."));
-        ArrayAdapter messageAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, loged.getChats());
+
+        ArrayAdapter messageAdapter = new ArrayAdapter(this, R.layout.listitem, loged.getChats());
 
         listView.setAdapter(messageAdapter);
     }
