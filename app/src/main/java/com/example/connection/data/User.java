@@ -1,6 +1,9 @@
 package com.example.connection.data;
+
+import java.io.Serializable;
+
 //@Entity
-public class User {
+public class User implements Serializable {
     //@primaryKey
     private String displayName;
 

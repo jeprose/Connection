@@ -2,11 +2,12 @@ package com.example.connection.data.model;
 import com.example.connection.data.Chats;
 import com.example.connection.data.User;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository
  */
-public class LoggedInUser extends User {
+public class LoggedInUser extends User implements Serializable {
     public static LoggedInUser loggedin;
     private ArrayList<Chats> chats;
     private ArrayList<String> interests;
